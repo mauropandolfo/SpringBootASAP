@@ -2,21 +2,35 @@ package ar.edu.asap.practica0.modelo;
 
 public class Tijera extends PiedraPapelTijeraFactory {
 
+	public Tijera() {
+		this("tijera", PiedraPapelTijeraFactory.TIJERA);
+	}
 	public Tijera(String nombre, int numero) {
 		super(nombre, numero);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override
 	public boolean isMe(int pNum) {
-		// TODO Auto-generated method stub
-		return false;
+		return pNum == PiedraPapelTijeraFactory.TIJERA;
 	}
 
 	@Override
 	public int comparar(PiedraPapelTijeraFactory pPPTFact) {
-		// TODO Auto-generated method stub
-		return 0;
+		int result=0;
+		switch(pPPTFact.getNumero()) {
+		case PiedraPapelTijeraFactory.PAPEL:
+			result=1;
+			this.descripcionResultado = nombre + "le gana a " + pPPTFact.getNombre();
+			break;
+		case PiedraPapelTijeraFactory.PIEDRA:
+			result=1;
+			this.descripcionResultado = nombre + "pierde con " + pPPTFact.getNombre();
+			break;
+		default:
+			this.descripcionResultado = nombre + "empata con " + pPPTFact.getNombre();
+			break;
+		}
+		return result;
 	}
 
 }
