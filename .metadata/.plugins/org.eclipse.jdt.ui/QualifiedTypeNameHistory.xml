@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="ar.edu.asap.practica0.modelo.Piedra"/>
+    <fullyQualifiedTypeName name="ar.edu.asap.practica0.modelo.Papel"/>
+    <fullyQualifiedTypeName name="ar.edu.asap.practica0.modelo.Tijera"/>
+    <fullyQualifiedTypeName name="ar.edu.asap.practica0.modelo.PiedraPapelTijeraFactory"/>
+    <fullyQualifiedTypeName name="ar.edu.asap.practica0.modelo.Lagarto"/>
+    <fullyQualifiedTypeName name="ar.edu.asap.practica0.modelo.Spock"/>
+</qualifiedTypeNameHistroy>
