@@ -20,14 +20,14 @@ public class Tijera extends PiedraPapelTijeraFactory {
 		switch(pPPTFact.getNumero()) {
 		case PiedraPapelTijeraFactory.PAPEL:
 			result=1;
-			this.descripcionResultado = nombre + "le gana a " + pPPTFact.getNombre();
+			this.descripcionResultado = nombre + " le gana a " + pPPTFact.getNombre();
 			break;
 		case PiedraPapelTijeraFactory.PIEDRA:
-			result=1;
-			this.descripcionResultado = nombre + "pierde con " + pPPTFact.getNombre();
+			result=-1;
+			this.descripcionResultado = nombre + " pierde con " + pPPTFact.getNombre();
 			break;
 		default:
-			this.descripcionResultado = nombre + "empata con " + pPPTFact.getNombre();
+			this.descripcionResultado = nombre + " empata con " + pPPTFact.getNombre();
 			break;
 		}
 		return result;

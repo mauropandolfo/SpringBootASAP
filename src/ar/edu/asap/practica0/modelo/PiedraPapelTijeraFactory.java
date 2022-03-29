@@ -1,5 +1,6 @@
 package ar.edu.asap.practica0.modelo;
 import java.util.List;
+import java.util.ArrayList;
 
 public abstract class PiedraPapelTijeraFactory {
 	
@@ -46,7 +47,18 @@ public abstract class PiedraPapelTijeraFactory {
 	public abstract int comparar(PiedraPapelTijeraFactory pPPTFact);
 	
 	public static PiedraPapelTijeraFactory getInstance(int pNum) {
-		// aca hay que armar el codigo
+		//el padre conoce a todos sus hijos.
+		elementos = new ArrayList<PiedraPapelTijeraFactory>();
+		elementos.add(new Piedra());
+		elementos.add(new Papel());
+		elementos.add(new Tijera());
+		
+		for(PiedraPapelTijeraFactory piedraPapelTijeraFactory : elementos) {
+			if(piedraPapelTijeraFactory.isMe(pNum)) 
+				return piedraPapelTijeraFactory;		
+		}
+		
+		
 		return null;
 	}
 	
