@@ -8,8 +8,8 @@ public class Papel extends PiedraPapelTijeraFactory {
 	
 	public Papel(String nombre, int numero) {
 		super(nombre, numero);
-
 	}
+	
 	@Override
 	public boolean isMe(int pNum) {
 		return pNum == PiedraPapelTijeraFactory.PAPEL;
@@ -23,7 +23,15 @@ public class Papel extends PiedraPapelTijeraFactory {
 			result=1;
 			this.descripcionResultado = nombre + " le gana a " + pPPTFact.getNombre();
 			break;
+		case PiedraPapelTijeraFactory.SPOCK:
+			result=1;
+			this.descripcionResultado = nombre + " le gana a " + pPPTFact.getNombre();
+			break;
 		case PiedraPapelTijeraFactory.TIJERA:
+			result=-1;
+			this.descripcionResultado = nombre + " pierde con " + pPPTFact.getNombre();
+			break;
+		case PiedraPapelTijeraFactory.LAGARTO:
 			result=-1;
 			this.descripcionResultado = nombre + " pierde con " + pPPTFact.getNombre();
 			break;

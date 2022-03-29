@@ -7,6 +7,8 @@ public abstract class PiedraPapelTijeraFactory {
 	public static final int PIEDRA=1;
 	public static final int PAPEL=2;
 	public static final int TIJERA=3;
+	public static final int LAGARTO=4;
+	public static final int SPOCK=5;
 	
 	protected String descripcionResultado;
 	
@@ -52,6 +54,8 @@ public abstract class PiedraPapelTijeraFactory {
 		elementos.add(new Piedra());
 		elementos.add(new Papel());
 		elementos.add(new Tijera());
+		elementos.add(new Lagarto());
+		elementos.add(new Spock());
 		
 		for(PiedraPapelTijeraFactory piedraPapelTijeraFactory : elementos) {
 			if(piedraPapelTijeraFactory.isMe(pNum)) 

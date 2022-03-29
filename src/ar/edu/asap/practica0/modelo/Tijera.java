@@ -22,7 +22,15 @@ public class Tijera extends PiedraPapelTijeraFactory {
 			result=1;
 			this.descripcionResultado = nombre + " le gana a " + pPPTFact.getNombre();
 			break;
+		case PiedraPapelTijeraFactory.LAGARTO:
+			result=1;
+			this.descripcionResultado = nombre + " le gana a " + pPPTFact.getNombre();
+			break;
 		case PiedraPapelTijeraFactory.PIEDRA:
+			result=-1;
+			this.descripcionResultado = nombre + " pierde con " + pPPTFact.getNombre();
+			break;
+		case PiedraPapelTijeraFactory.SPOCK:
 			result=-1;
 			this.descripcionResultado = nombre + " pierde con " + pPPTFact.getNombre();
 			break;
