@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=/Users/mauro/Desktop/ASAPJAVA/practica0/.git\:
-GitRepositoriesView.GitDirectories.relative=practica0/.git\:
+GitRepositoriesView.GitDirectories=/Users/mauro/Desktop/ASAPJAVA/practica0/.git\:/Users/mauro/Desktop/ASAPJAVA/.git\:
+GitRepositoriesView.GitDirectories.relative=practica0/.git\:.git\:
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1
