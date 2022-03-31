@@ -6,4 +6,6 @@
     <fullyQualifiedTypeName name="ar.edu.asap.practica0.modelo.PiedraPapelTijeraFactory"/>
     <fullyQualifiedTypeName name="ar.edu.asap.practica0.modelo.Lagarto"/>
     <fullyQualifiedTypeName name="ar.edu.asap.practica0.modelo.Spock"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
 </qualifiedTypeNameHistroy>
