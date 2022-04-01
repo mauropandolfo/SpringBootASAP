@@ -16,5 +16,6 @@
 		<p>${computadora}</p>
 		
 		${resultado}
+		<a href="./juego"><button>Volver a jugar!</button></a>
 	</body>
 </html>
