@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="ar.edu.asap.practica0.modelo.Piedra"/>
-    <fullyQualifiedTypeName name="ar.edu.asap.practica0.modelo.Papel"/>
-    <fullyQualifiedTypeName name="ar.edu.asap.practica0.modelo.Tijera"/>
-    <fullyQualifiedTypeName name="ar.edu.asap.practica0.modelo.PiedraPapelTijeraFactory"/>
-    <fullyQualifiedTypeName name="ar.edu.asap.practica0.modelo.Lagarto"/>
-    <fullyQualifiedTypeName name="ar.edu.asap.practica0.modelo.Spock"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="ar.edu.asap.practica0.modelo.Papel"/>
+    <fullyQualifiedTypeName name="ar.edu.asap.practica0.modelo.Piedra"/>
+    <fullyQualifiedTypeName name="ar.edu.asap.practica0.modelo.Tijera"/>
+    <fullyQualifiedTypeName name="ar.edu.asap.practica0.modelo.Lagarto"/>
+    <fullyQualifiedTypeName name="ar.edu.asap.practica0.modelo.Spock"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+    <fullyQualifiedTypeName name="ar.edu.asap.practica0.modelo.PiedraPapelTijeraFactory"/>
 </qualifiedTypeNameHistroy>

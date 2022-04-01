@@ -45,7 +45,7 @@ public class IndexController {
 	public String goJuego(Model model) {
 		List<PiedraPapelTijeraFactory> opciones = new ArrayList<PiedraPapelTijeraFactory>();
 		
-		for(int i =1; i<6 ; i++) {
+		for(int i =1; i < 6 ; i++) {
 			opciones.add(PiedraPapelTijeraFactory.getInstance(i));
 		}
 		model.addAttribute("opciones", opciones);
