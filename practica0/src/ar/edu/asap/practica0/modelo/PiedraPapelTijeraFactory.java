@@ -62,9 +62,10 @@ public abstract class PiedraPapelTijeraFactory {
 				return piedraPapelTijeraFactory;		
 		}
 		
-		
 		return null;
 	}
-	
+	public String toString() {
+		return getNumero() + " - " + getNombre();
+	}
 	
 }
