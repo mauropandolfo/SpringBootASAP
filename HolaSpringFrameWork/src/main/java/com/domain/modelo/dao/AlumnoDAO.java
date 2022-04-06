@@ -2,7 +2,9 @@ package com.domain.modelo.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.List;
 
 import com.domain.modelo.Alumno;
@@ -23,7 +25,7 @@ public class AlumnoDAO implements DAO {
 	@Override
 	public void agregar(Model pModel) throws ClassNotFoundException, SQLException {
 		
-		StringBuilder sql = new StringBuilder("insert into alumnos(ALU_NOMBRE, ALU_APELLIDO, ALU_EMAIL, ");
+		StringBuilder sql = new StringBuilder("INSERT INTO Alumnos(ALU_NOMBRE, ALU_APELLIDO, ALU_EMAIL, ");
 		 sql.append( "ALU_CONOCIMIENTOS, ALU_GIT)").append("values(?,?,?,?,?)");
 		
 		Alumno alu = (Alumno) pModel;
@@ -41,19 +43,32 @@ public class AlumnoDAO implements DAO {
 
 	@Override
 	public void modificar(Model pModel) throws ClassNotFoundException, SQLException {
+		StringBuilder sql = new StringBuilder("UPDATE Alumnos SET ALU_NOMBRE, ALU_APELLIDO, ALU_EMAIL, ALU_CONOCIMIENTOS, ALU_GIT =?,?,?,?,? WHERE ALU_ID=?");
 		
+		Alumno alu = (Alumno) pModel;
+		PreparedStatement stm = conexion.prepareStatement(sql.toString());
+		
+		stm.setString(1, alu.getNombre());
+		stm.setString(2, alu.getApellido());
+		stm.setString(3, alu.getEmail());
+		stm.setString(4, alu.getEstudios());
+		stm.setString(5, alu.getLinkArepositorio());
+		stm.setInt(6, alu.getCodigo());
+		
+		stm.execute();
+
 	}
 
 	@Override
 	public void eliminar(Model pModel) throws ClassNotFoundException, SQLException {
-		// TODO Auto-generated method stub
+
 
 	}
 
 	@Override
 	public List<Model> leer(Model pModel) throws ClassNotFoundException, SQLException {
-		// TODO Auto-generated method stub
-		return null;
+
+		return null;		
 	}
 
 }
