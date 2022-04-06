@@ -12,21 +12,22 @@ import com.domain.modelo.Model;
 import com.domain.util.ConnectionManager;
 
 public class AlumnoDAO implements DAO {
-
+	private Connection conexion;
+	
 	public AlumnoDAO() throws ClassNotFoundException, SQLException{
-
+		ConnectionManager.conectar();
+		conexion = ConnectionManager.getConection();
 	}
 	
 	
 	@Override
 	public void agregar(Model pModel) throws ClassNotFoundException, SQLException {
-		ConnectionManager.conectar();
-		Connection con = ConnectionManager.getConection();
 		
-		String sql = new String("insert into alumnos(ALU_NOMBRE, ALU_APELLIDO, ALU_EMAIL ,ALU_CONOCIMIENTOS, ALU_GIT");
+		StringBuilder sql = new StringBuilder("insert into alumnos(ALU_NOMBRE, ALU_APELLIDO, ALU_EMAIL, ");
+		 sql.append( "ALU_CONOCIMIENTOS, ALU_GIT)").append("values(?,?,?,?,?)");
 		
 		Alumno alu = (Alumno) pModel;
-		PreparedStatement stm = con.prepareStatement(sql);
+		PreparedStatement stm = conexion.prepareStatement(sql.toString());
 		
 		stm.setString(1, alu.getNombre());
 		stm.setString(2, alu.getApellido());
@@ -34,12 +35,13 @@ public class AlumnoDAO implements DAO {
 		stm.setString(4, alu.getEstudios());
 		stm.setString(5, alu.getLinkArepositorio());
 		
+		stm.execute();
+		
 	}
 
 	@Override
 	public void modificar(Model pModel) throws ClassNotFoundException, SQLException {
-		// TODO Auto-generated method stub
-
+		
 	}
 
 	@Override
