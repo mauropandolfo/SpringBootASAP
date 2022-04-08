@@ -2189,3 +2189,232 @@ org.eclipse.core.runtime.CoreException: Launch configuration ConnectionManagerTe
 2022-04-07 20:07:20,900 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
 2022-04-07 20:07:20,900 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-04-07 20:07:20,900 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 20:32:40,376 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 20:32:40,377 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 20:32:40,377 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 20:32:40,377 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 20:34:00,587 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 20:34:00,588 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 20:34:00,589 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 20:34:00,589 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 20:38:23,773 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 20:38:23,778 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 20:38:23,779 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 20:38:23,780 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 20:43:01,048 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 20:43:01,049 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 20:43:01,049 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 20:43:01,049 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 20:45:50,334 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 20:45:50,335 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 20:45:50,335 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 20:45:50,335 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 20:47:53,599 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 20:47:53,600 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 20:47:53,600 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 20:47:53,600 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 21:00:01,209 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:00:01,210 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 21:00:01,210 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:00:01,210 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 21:04:51,043 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:04:51,044 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 21:04:51,044 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:04:51,044 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 21:05:52,534 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:05:52,534 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 21:05:52,534 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:05:52,535 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 21:07:55,344 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:07:55,345 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 21:07:55,346 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:07:55,346 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 21:14:32,743 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:14:32,744 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 21:14:32,744 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:14:32,744 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 21:14:59,195 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:14:59,195 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 21:14:59,195 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:14:59,195 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 21:17:27,071 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:17:27,072 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 21:17:27,072 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:17:27,072 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 21:18:24,322 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:18:24,323 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 21:18:24,323 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:18:24,323 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 21:18:43,625 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:18:43,625 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 21:18:43,625 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:18:43,626 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 21:19:31,623 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:19:31,623 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 21:19:31,624 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:19:31,624 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 21:20:41,049 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:20:41,050 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 21:20:41,050 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:20:41,050 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 21:21:21,660 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:21:21,661 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 21:21:21,661 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:21:21,661 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 21:22:39,674 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:22:39,675 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 21:22:39,675 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:22:39,675 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 21:22:45,729 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:22:45,730 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 21:22:45,730 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:22:45,730 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 21:23:25,318 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:23:25,319 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 21:23:25,319 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:23:25,319 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 21:25:25,139 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:25:25,140 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 21:25:25,140 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:25:25,140 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 21:29:26,319 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:29:26,320 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 21:29:26,320 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:29:26,320 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 21:30:11,537 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:30:11,537 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 21:30:11,538 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:30:11,538 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 21:34:10,436 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:34:10,437 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 21:34:10,437 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:34:10,437 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 21:34:57,693 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:34:57,694 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 21:34:57,694 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:34:57,695 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 21:35:32,942 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:35:32,943 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 21:35:32,943 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:35:32,944 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 21:36:35,914 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:36:35,914 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 21:36:35,915 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:36:35,915 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 21:37:07,596 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:37:07,597 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 21:37:07,598 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:37:07,598 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 21:43:09,392 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:43:09,393 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 21:43:09,393 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:43:09,393 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 21:46:23,167 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:46:23,168 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 21:46:23,168 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:46:23,168 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 21:55:03,753 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:55:03,753 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 21:55:03,754 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 21:55:03,754 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 22:04:33,077 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:04:33,078 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 22:04:33,079 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:04:33,079 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 22:09:07,263 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:09:07,263 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 22:09:07,264 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:09:07,264 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 22:09:41,165 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:09:41,166 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 22:09:41,166 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:09:41,167 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 22:09:46,709 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-04-07 22:14:35,499 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:14:35,500 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 22:14:35,501 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:14:35,501 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 22:15:48,529 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:15:48,530 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 22:15:48,530 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:15:48,531 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 22:15:58,428 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:15:58,429 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 22:15:58,430 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:15:58,430 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 22:16:58,355 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:16:58,358 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 22:16:58,358 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:16:58,358 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 22:20:03,753 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:20:03,765 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 22:20:03,766 [Worker-0: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:20:03,766 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 22:21:28,996 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:21:28,996 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 22:21:28,997 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:21:28,997 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 22:22:25,628 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:22:25,628 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 22:22:25,629 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:22:25,629 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 22:22:54,213 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:22:54,214 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 22:22:54,214 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:22:54,214 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 22:22:59,616 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:22:59,617 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 22:22:59,617 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:22:59,617 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 22:23:02,662 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:23:02,662 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 22:23:02,663 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:23:02,663 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 22:24:26,325 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:24:26,326 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 22:24:26,326 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:24:26,326 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 22:29:05,755 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:29:05,755 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 22:29:05,756 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:29:05,756 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 22:32:10,592 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:32:10,593 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 22:32:10,593 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:32:10,593 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 22:32:54,270 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:32:54,270 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 22:32:54,271 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:32:54,271 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 22:34:07,144 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:34:07,147 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 22:34:07,148 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:34:07,148 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 22:34:22,850 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:34:22,855 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 22:34:22,857 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:34:22,857 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 22:35:31,970 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:35:31,971 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 22:35:31,972 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:35:31,972 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 22:39:23,087 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:39:23,088 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 22:39:23,088 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:39:23,088 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 22:45:21,130 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:45:21,131 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 22:45:21,131 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:45:21,131 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 22:47:03,161 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:47:03,162 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 22:47:03,162 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:47:03,163 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 22:47:18,594 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:47:18,594 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 22:47:18,595 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:47:18,595 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources
+2022-04-07 22:48:39,105 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:48:39,105 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/main/resources
+2022-04-07 22:48:39,105 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-07 22:48:39,106 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/mauro/Desktop/SpringBootASAP/HolaSpringFrameWork/src/test/resources

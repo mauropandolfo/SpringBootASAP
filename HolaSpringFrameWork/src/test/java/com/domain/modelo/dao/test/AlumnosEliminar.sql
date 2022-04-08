@@ -8,3 +8,4 @@ DELETE FROM Alumnos where ALU_NOMBRE ='Aarn_test'
 DELETE FROM Alumnos where ALU_NOMBRE ='Ivn_test'
 -- ademas tengo que eliminar que quse se agrego con el metodo agregar
 DELETE FROM Alumnos where ALU_NOMBRE ='Mauro_Test'
+DELETE FROM Alumnos where ALU_NOMBRE ='Mauro_Mod'
