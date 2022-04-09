@@ -84,8 +84,8 @@ public class AlumnoDAO implements DAO {
 	@Override
 	public List<Model> leer(Model pModel) throws ClassNotFoundException, SQLException {
 		
-		conexion = ConnectionManager.getConection();
 		ConnectionManager.conectar();
+		conexion = ConnectionManager.getConection();
 
 		List<Model> alumnos = new ArrayList<Model>();
 
