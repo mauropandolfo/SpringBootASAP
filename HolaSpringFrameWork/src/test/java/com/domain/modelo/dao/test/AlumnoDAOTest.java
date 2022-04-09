@@ -301,8 +301,6 @@ class AlumnoDAOTest {
 			
 			Alumno aluLeido = (Alumno) alumnos.get(0);
 			
-			
-			// leer de la db lo escrito
 			assertEquals(1, alumnos.size());
 			
 			assertEquals(alumnoLeerNom.getNombre(), aluLeido.getNombre());
@@ -317,6 +315,7 @@ class AlumnoDAOTest {
 		}
 		
 	}
+	
 	@Test
 	void testLeerTodos_Null() {
 		try {

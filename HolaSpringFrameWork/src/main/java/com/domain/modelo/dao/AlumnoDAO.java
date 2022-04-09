@@ -81,50 +81,49 @@ public class AlumnoDAO implements DAO {
 		ConnectionManager.desConectar();
 
 	}
-
 	@Override
 	public List<Model> leer(Model pModel) throws ClassNotFoundException, SQLException {
-		ConnectionManager.conectar();
-		conexion= ConnectionManager.getConection();
 		
+		conexion = ConnectionManager.getConection();
+		ConnectionManager.conectar();
+
 		List<Model> alumnos = new ArrayList<Model>();
 
-		StringBuilder sql = new StringBuilder("select  ALU_ID, ALU_NOMBRE, ALU_APELLIDO ,ALU_EMAIL, "	);		
-					  sql			.append	       ("ALU_CONOCIMIENTOS, ALU_GIT "			)
-					  				.append	       (" FROM ALUMNOS  "			);
- 	    //downCast
-		Alumno alu = (Alumno)pModel;
-		
+		StringBuilder sql = new StringBuilder("SELECT ALU_ID, ALU_NOMBRE, ALU_APELLIDO ,ALU_EMAIL, ");
+									sql.append("ALU_CONOCIMIENTOS, ALU_GIT ")
+										.append(" FROM Alumnos  ");
+		Alumno alu = (Alumno) pModel;
+
 		PreparedStatement stm = null;
-		if(alu != null && !alu.isEmpty()) {
-			if(alu.getCodigo()>0) {
+		if (alu != null && !alu.isEmpty()) {
+			if (alu.getCodigo() > 0) {
 				sql.append("Where alu_id=?");
 				stm = conexion.prepareStatement(sql.toString());
 				stm.setInt(1, alu.getCodigo());
-			}
-			else if (alu.getNombre()!=null && !alu.getNombre().isEmpty()) {
+			} else if (alu.getNombre() != null && !alu.getNombre().isEmpty()) {
 				sql.append("Where alu_nombre =?");
 				stm = conexion.prepareStatement(sql.toString());
 				stm.setString(1, alu.getNombre());
 			}
-				
-		}else {
+
+		} 
+		else {
 			stm = conexion.prepareStatement(sql.toString());
 		}
-		
+
 		ResultSet rs = stm.executeQuery();
-		while(rs.next()) {
-			alumnos.add(new Alumno(	rs.getInt("ALU_ID"), 
+		while (rs.next()) {
+			alumnos.add(new Alumno(rs.getInt("ALU_ID"), 
 									rs.getString("ALU_NOMBRE"), 
-									rs.getString("ALU_APELLIDO"), 
+									rs.getString("ALU_APELLIDO"),
 									rs.getString("ALU_EMAIL"), 
-									rs.getString("ALU_CONOCIMIENTOS"),
-									rs.getString("ALU_GIT") ));			
+									rs.getString("ALU_CONOCIMIENTOS"), 
+									rs.getString("ALU_GIT")));
 		}
-		
+
 		ConnectionManager.desConectar();
 
 		return alumnos;
 	}
-
+	
 }

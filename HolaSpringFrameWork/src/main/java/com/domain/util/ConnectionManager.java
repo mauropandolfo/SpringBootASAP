@@ -11,7 +11,7 @@ public class ConnectionManager {
 	
 	public static void conectar() throws ClassNotFoundException,SQLException {
 		Class.forName("com.mysql.cj.jdbc.Driver");
-		conection = DriverManager.getConnection("jdbc:mysql://localhost:3306/ASAP", "root" ,"passwordsql");
+		conection = DriverManager.getConnection("jdbc:mysql://localhost:3306/ASAP","root","mauroes15");
 		
 	}
 	public static void desConectar() throws SQLException {
