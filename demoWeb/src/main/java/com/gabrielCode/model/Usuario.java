@@ -11,6 +11,7 @@ public class Usuario {
 	private String clave;
 	
 	public Usuario() {}
+	
 	public Usuario(int codigo, String nombre, String clave) {
 		super();
 		this.codigo = codigo;

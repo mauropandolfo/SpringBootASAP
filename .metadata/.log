@@ -1959,3 +1959,1232 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-09 15:58:31.630
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2022-04-10 20:39:19.987 -----------------------------------------------
+eclipse.buildId=4.14.0.202203131612
+java.version=17.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/mauro/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/mauro/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-04-10 20:39:22.747
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-04-10 20:39:22.747
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5d2bfc9f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1bd6bfb0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-04-10 20:39:22.747
+!MESSAGE A conflict occurred for COMMAND+-:
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(org.eclipse.gef.zoom_out,Zoom Out,
+		Zoom Out,
+		Category(org.eclipse.gef.category.view,View,View,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3b9c386d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+-,
+	ParameterizedCommand(Command(org.eclipse.gef3.zoom_out,Zoom Out,
+		Zoom Out,
+		Category(org.eclipse.gef3.category.view,View,View,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7fb28ed,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-04-10 20:39:22.747
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@536f389,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2b33f7a0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-04-10 20:39:22.747
+!MESSAGE A conflict occurred for COMMAND+=:
+Binding(COMMAND+=,
+	ParameterizedCommand(Command(org.eclipse.gef.zoom_in,Zoom In,
+		Zoom In,
+		Category(org.eclipse.gef.category.view,View,View,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@71b6edfb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+=,
+	ParameterizedCommand(Command(org.eclipse.gef3.zoom_in,Zoom In,
+		Zoom In,
+		Category(org.eclipse.gef3.category.view,View,View,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2f541f60,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2022-04-10 20:39:23.023
+!MESSAGE Unexpected error while loading repository template extensions
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2022-04-10 20:39:23.023
+!MESSAGE Could not load repository template extension contributed by 'org.eclipse.mylyn.bugzilla.ide' with connectorKind 'bugzilla'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 20:39:25.092
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 20:39:25.093
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@430dca72[org.springframework.tooling.boot.ls:1.32.0.202203131529(id=562)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 20:39:25.093
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 20:39:25.112
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 20:39:26.483
+!MESSAGE Boot LS startup time from start to initialized: 1387ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 20:39:26.537
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.QTFIfDSrisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 20:39:26.538
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 20:39:26.539
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 20:39:26.539
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 20:39:26.539
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.QTFIfDSr => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 20:39:26.540
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 20:39:26.541
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 20:39:26.542
+!MESSAGE buffering callback sts4.classpath.QTFIfDSr HolaSpringFrameWork false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 20:39:26.542
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 20:39:26.543
+!MESSAGE classpath=103 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 20:39:26.543
+!MESSAGE buffering callback sts4.classpath.QTFIfDSr demoWeb false 103
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 20:39:26.543
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 20:39:26.543
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 20:39:26.543
+!MESSAGE buffering callback sts4.classpath.QTFIfDSr practica0 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 20:39:26.544
+!MESSAGE executing callback sts4.classpath.QTFIfDSr 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 20:39:26.825
+!MESSAGE executing callback sts4.classpath.QTFIfDSr SUCCESS [done]
+
+!ENTRY org.eclipse.jface 2 0 2022-04-10 20:39:29.636
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-04-10 20:39:29.636
+!MESSAGE A conflict occurred for COMMAND+SHIFT+C:
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@31d2de28,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5f87417a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-10 20:40:58.598
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-10 20:40:58.600
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-04-10 20:47:36.808
+!MESSAGE Error occured processing 'com.gabrielCode.DemoWebApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2675)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-04-10 20:54:44.698
+!MESSAGE Error occured processing 'com.gabrielCode.DemoWebApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2675)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-04-10 21:01:18.963
+!MESSAGE Error occured processing 'com.gabrielCode.DemoWebApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2675)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-04-10 21:06:53.296
+!MESSAGE Error occured processing 'com.gabrielCode.DemoWebApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2675)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-04-10 21:08:02.156
+!MESSAGE Error occured processing 'com.gabrielCode.DemoWebApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2675)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-04-10 21:08:47.318
+!MESSAGE Error occured processing 'com.gabrielCode.DemoWebApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2675)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-04-10 21:10:27.729
+!MESSAGE Error occured processing 'com.gabrielCode.DemoWebApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2675)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-04-10 21:11:26.085
+!MESSAGE Error occured processing 'com.gabrielCode.DemoWebApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2675)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-04-10 21:12:36.960
+!MESSAGE Error occured processing 'com.gabrielCode.DemoWebApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2675)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-04-10 21:17:11.380
+!MESSAGE Error occured processing 'com.gabrielCode.DemoWebApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2675)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:17:28.761
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.QTFIfDSr
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:17:28.762
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.QTFIfDSr
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:17:28.762
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:17:28.762
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.QTFIfDSr => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:18:43.426
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:18:43.427
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@430dca72[org.springframework.tooling.boot.ls:1.32.0.202203131529(id=562)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:18:43.427
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:18:44.219
+!MESSAGE Boot LS startup time from start to initialized: 792ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:18:44.261
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.VsJlBFaFisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:18:44.261
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:18:44.261
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:18:44.261
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:18:44.262
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:18:44.262
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.VsJlBFaF => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:18:44.263
+!MESSAGE classpath=103 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:18:44.263
+!MESSAGE buffering callback sts4.classpath.VsJlBFaF demoWeb false 103
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:18:44.263
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:18:44.264
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:18:44.264
+!MESSAGE buffering callback sts4.classpath.VsJlBFaF HolaSpringFrameWork false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:18:44.264
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:18:44.264
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:18:44.264
+!MESSAGE buffering callback sts4.classpath.VsJlBFaF practica0 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:18:44.264
+!MESSAGE executing callback sts4.classpath.VsJlBFaF 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:18:44.474
+!MESSAGE executing callback sts4.classpath.VsJlBFaF SUCCESS [done]
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-04-10 21:19:03.709
+!MESSAGE Error occured processing 'com.gabrielCode.DemoWebApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2675)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-04-10 21:21:39.681
+!MESSAGE Error occured processing 'com.gabrielCode.DemoWebApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2675)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-04-10 21:26:02.575
+!MESSAGE Error occured processing 'com.gabrielCode.DemoWebApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2675)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-04-10 21:27:31.709
+!MESSAGE Error occured processing 'com.gabrielCode.DemoWebApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2675)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-04-10 21:27:39.699
+!MESSAGE Error occured processing 'com.gabrielCode.DemoWebApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2675)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-04-10 21:28:54.234
+!MESSAGE Error occured processing 'com.gabrielCode.DemoWebApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2675)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-04-10 21:30:38.059
+!MESSAGE Error occured processing 'com.gabrielCode.DemoWebApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2675)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:31:11.384
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/e4/snapshots/org.eclipse.e4.ui/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:31:15.740
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/updates, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:31:19.510
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/updates/release, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:31:22.020
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/release/1.2.2/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:31:24.514
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/release/1.2.1, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:31:26.992
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/release/1.2.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:31:29.514
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/release/1.1.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:31:32.007
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/updates/milestone, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:31:34.469
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/milestone/S911-1.2-RC1, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:31:36.992
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/milestone/S909-1.2-RC1, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:31:39.489
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/milestone/S908-1.2-RC1, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:31:41.997
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/milestone/S20210519-025928-1.2.2-M1/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:31:44.541
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/milestone/S20210406-153234/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:31:47.048
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/milestone/S20191129-202804-1.2.1-RC2, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:31:49.556
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/milestone/S20191118-183434-1.2.1-RC1, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:31:52.041
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/milestone/S20170529-101518-1.1-RC2, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:31:54.549
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/milestone/S20170525-115740-1.1-RC2, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:31:57.070
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/milestone/S20170523-143239-1.1-RC1, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:00.127
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/milestone/S20170516-113326-1.1-M7, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:02.648
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/updates/nightly, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:06.397
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/nightly/N20220410-034115/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:10.173
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/nightly/N20220409-034135/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:12.699
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/nightly/N20220408-034146/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:15.210
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/nightly/N20220407-034230/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:17.761
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/usssdk/drops/nightly/N20220406-034153/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:21.325
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/oomph/uss/updates/latest, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:23.826
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/oomph/uss/drops/nightly/N20180202-232207, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:25.979
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:27.054
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.11.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:28.096
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.11.0.r201704240320, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:28.633
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.12.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:29.614
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.12.0.r201709030044, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-04-10 21:32:30.055
+!MESSAGE Error occured processing 'com.gabrielCode.DemoWebApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2675)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:30.391
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.13.1, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:31.323
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.13.1.r201712040202, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:31.937
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.13.1.r201712040515, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:32.712
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.14.2, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:33.739
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.14.2.r201802161450, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:34.278
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.14.3, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:35.140
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.14.3.r201802240500, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:36.885
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.0.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:37.569
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.0.0.r201908191551, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:38.304
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.1.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:39.162
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.1.0.r202001120626, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:40.182
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.2.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:41.211
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.2.0.r202003151902, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:42.251
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.3.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:43.284
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.3.0.r202008060316, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:44.063
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.4.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:45.087
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.4.0.r202105021533, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:45.837
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.5.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:46.887
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.5.0.r202201070709, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:48.437
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/m2e/releases/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:50.953
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/m2e/releases/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:52.218
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/m2e/releases/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-04-10 21:32:52.787
+!MESSAGE Error occured processing 'com.gabrielCode.DemoWebApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2675)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2022-04-10 21:32:56.472
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:32:59.801
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/eclipse/updates/4.4, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:33:02.301
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/eclipse/updates/4.4/categoriesLuna, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:33:05.448
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/eclipse/updates/4.4/R-4.4-201406061215, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:33:08.105
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/eclipse/updates/4.4/R-4.4.1-201409250400, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:33:10.704
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/eclipse/updates/4.4/bug445122, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:33:13.218
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/eclipse/updates/4.4/R-4.4.2-201502041700, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-10 21:35:17.747
+!MESSAGE Using unsafe http transport to retrieve http://download.oracle.com/otn_software/oepe/12.2.1.9/photon/repository/dependencies/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-04-10 21:36:53.604
+!MESSAGE Error occured processing 'com.gabrielCode.DemoWebApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2675)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-04-10 21:41:30.938
+!MESSAGE Error occured processing 'com.gabrielCode.DemoWebApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2675)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2022-04-10 21:43:07.902
+!MESSAGE Error occured processing 'com.gabrielCode.DemoWebApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2675)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:44:06.908
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.VsJlBFaF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:44:06.909
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.VsJlBFaF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:44:06.909
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:44:06.909
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.VsJlBFaF => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:44:24.707
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:44:24.708
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@430dca72[org.springframework.tooling.boot.ls:1.32.0.202203131529(id=562)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:44:24.708
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:44:25.450
+!MESSAGE Boot LS startup time from start to initialized: 742ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:44:25.485
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.vBjbwDBQisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:44:25.485
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:44:25.485
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:44:25.486
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:44:25.486
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:44:25.486
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.vBjbwDBQ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:44:25.487
+!MESSAGE classpath=103 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:44:25.488
+!MESSAGE buffering callback sts4.classpath.vBjbwDBQ demoWeb false 103
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:44:25.488
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:44:25.488
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:44:25.488
+!MESSAGE buffering callback sts4.classpath.vBjbwDBQ HolaSpringFrameWork false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:44:25.488
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:44:25.489
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:44:25.489
+!MESSAGE buffering callback sts4.classpath.vBjbwDBQ practica0 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:44:25.489
+!MESSAGE executing callback sts4.classpath.vBjbwDBQ 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:44:25.674
+!MESSAGE executing callback sts4.classpath.vBjbwDBQ SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-10 21:45:10.565
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-10 21:45:10.566
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:45:17.783
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.vBjbwDBQ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:45:17.783
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.vBjbwDBQ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:45:17.784
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-10 21:45:17.784
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.vBjbwDBQ => OK
