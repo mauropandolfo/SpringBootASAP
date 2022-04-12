@@ -3,7 +3,7 @@ package com.baeldung.boot.jsp;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.springframework.boot.SpringBootConfiguration;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

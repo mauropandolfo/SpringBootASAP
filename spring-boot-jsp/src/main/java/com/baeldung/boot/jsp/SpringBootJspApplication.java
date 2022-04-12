@@ -6,6 +6,14 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication(scanBasePackages = "com.baeldung.boot.jsp")
-public class SpringBootApplication extends SpringBootServletInitializer{
-	
+public class SpringBootJspApplication extends SpringBootServletInitializer {
+
+    @Override
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
+        return builder.sources(SpringBootJspApplication.class);
+    }
+
+    public static void main(String[] args) {
+        SpringApplication.run(SpringBootJspApplication.class);
+    }
 }

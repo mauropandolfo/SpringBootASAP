@@ -26,7 +26,7 @@ public class UserService implements UserDetailsService{
 	
 	@Override
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-		Usuario us= repo.findByNombre(username);
+		Usuario us = repo.findByNombre(username);
 		
 		List<GrantedAuthority> roles = new ArrayList<GrantedAuthority>();
 		roles.add(new SimpleGrantedAuthority("admin"));

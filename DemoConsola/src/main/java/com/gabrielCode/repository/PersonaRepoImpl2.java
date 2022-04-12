@@ -14,6 +14,6 @@ public class PersonaRepoImpl2 implements IPersona{
 	private static Logger log = LoggerFactory.getLogger(DemoConsolaApplication.class);
 	@Override
 	public void registrar(String pNombre) {
-		log.info("se registro FELIZMENTE a" + pNombre);
+		log.info("se registro FELIZMENTE a " + pNombre);
 	}
 }
