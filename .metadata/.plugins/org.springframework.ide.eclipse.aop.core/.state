@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
-<aop-project name="data-flow-server"/>
+<aop-project name="spring-boot-jsp"/>
+<aop-project name="DemoConsola"/>
 <aop-project name="demoWeb"/>
 <aop-project name="HolaSpringFrameWork"/>
 </aop-reference-model>

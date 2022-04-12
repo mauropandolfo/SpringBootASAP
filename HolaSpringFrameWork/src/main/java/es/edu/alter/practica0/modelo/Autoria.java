@@ -3,10 +3,10 @@ package es.edu.alter.practica0.modelo;
 import java.util.Date;
 
 public class Autoria {
-	private Date fecha;
+	private  Date fecha;
 	private int cantidadJugadas;
 	public Autoria() {
-		super();
+		
 	}
 	public Autoria(Date fecha, int cantidadJugadas) {
 		super();
@@ -20,12 +20,15 @@ public class Autoria {
 		this.fecha = fecha;
 	}
 	public int getCantidadJugadas() {
+		
 		return cantidadJugadas;
 	}
 	public void setCantidadJugadas(int cantidadJugadas) {
 		this.cantidadJugadas = cantidadJugadas;
 	}
-	public void contarDesdesDeLaJugada() {
-		cantidadJugadas++;
+   
+	public void contarDespuesDeLaJugada() {
+		this.cantidadJugadas++;
 	}
 }
+
