@@ -2,6 +2,7 @@
 <aop-reference-model>
 <aop-project name="spring-boot-jsp"/>
 <aop-project name="DemoConsola"/>
+<aop-project name="SpringBootASAProyectoFinalJuego_2022"/>
 <aop-project name="demoWeb"/>
 <aop-project name="HolaSpringFrameWork"/>
 </aop-reference-model>

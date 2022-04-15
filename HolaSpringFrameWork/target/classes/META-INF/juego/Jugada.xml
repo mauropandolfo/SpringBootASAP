@@ -6,7 +6,6 @@
 		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
 <import resource="jugador.xml"/>
 	<import resource="jugador2.xml"/>	
-
 	<bean id="jugada" class="es.edu.alter.practica0.modelo.Jugada">
 		<property name="codigo">
 		 	<value>1</value>
@@ -23,17 +22,13 @@
 		<property name="jugador2">
 			<ref bean="jug2"/>
 		</property>
-		 
 	</bean>     
 	<bean id="dateFormat" class="java.text.SimpleDateFormat">
 	    <constructor-arg value="yyyy-MM-dd" />
 	</bean>
-	
 	<bean id="auditoria" class="es.edu.alter.practica0.modelo.Autoria">
 	                            
-	
 	</bean>
-	
 	<aop:config>
 	  <aop:aspect ref="auditoria">
 	  	<aop:pointcut id="getDescripcionDelresultado" 
@@ -42,7 +37,4 @@
 	  		method="contarDespuesDeLaJugada"/>
 	  </aop:aspect>
 	</aop:config>
-
-
 </beans>
-

@@ -65,7 +65,7 @@ class JugadorTest {
 		jugada.getDescripcionDelResultado();
 		jugada.getDescripcionDelResultado();
 		jugada.getDescripcionDelResultado();
-		assertEquals(0, auditoria.getCantidadJugadas());
+		assertEquals(3, auditoria.getCantidadJugadas());
 	}
 
 }

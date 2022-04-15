@@ -1,0 +1,33 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-18029917baf-2525a8e8d93b4315": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "asap_pokemon",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "asap_pokemon",
+				"url": "jdbc:mysql://localhost:3306/asap_pokemon",
+				"home": "/usr/local/mysql-8.0.28-macos11-arm64",
+				"type": "dev",
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
